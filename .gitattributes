@@ -1,2 +1,13 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+.mask {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background-color: #373737;
+	background-color: rgba(55, 55, 55, .4);
+	height: 100%;
+	z-index: 2000;
+}
